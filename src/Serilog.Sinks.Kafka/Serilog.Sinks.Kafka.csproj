@@ -19,7 +19,7 @@
 
     <ItemGroup>
         <PackageReference Include="Confluent.Kafka" Version="1.1.0"/>
-        <PackageReference Include="GitVersionTask" Version="5.0.1" PrivateAssets="All"/>
+        <PackageReference Include="GitVersionTask" Version="5.5.1" PrivateAssets="All"/>
         <PackageReference Condition=" '$(TargetFramework)' == 'net461' " Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-preview.2" PrivateAssets="All"/>
         <PackageReference Include="Serilog" Version="2.8.0"/>
         <PackageReference Include="Serilog.Sinks.PeriodicBatching" Version="2.2.0"/>
